@@ -1,0 +1,387 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: #222;
+    background: #fff;
+  }
+
+  ul {
+    margin-top: 20px;
+    padding-left: 24px;
+  }
+  
+  /* =========================
+     TOP NAVBAR
+  ========================= */
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    width: 100%;
+    height: 82px;
+  
+    background: #fafafa;
+    backdrop-filter: blur(10px);
+  
+    z-index: 9999;
+  }
+  
+  .navbar-inner {
+    max-width: 1200px;
+    height: 100%;
+  
+    margin: 0 auto;
+    padding: 0 34px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar nav {
+    display: flex;
+    gap: 28px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+  
+    color: #555;
+  
+    font-size: 16px;
+    font-weight: 500;
+  
+    transition: 0.2s;
+  }
+  
+  .navbar a:hover {
+    color: #000;
+  }
+  
+  /* =========================
+     MAIN LAYOUT
+  ========================= */
+  
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* =========================
+     LEFT SIDEBAR
+  ========================= */.sidebar {
+}
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 58px;
+
+    width: 30%;
+    height: calc(100vh - 58px);
+
+    padding: 40px 40px;
+  
+    border-right: none;
+    background: #ffffff;
+  
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    gap: 6px; /* controls spacing manually */
+  }
+
+  .sidebar-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    text-align: center;
+  }
+
+  .sidebar-bottom {
+    margin-top: 20px;
+  }
+  
+  .profile-img {
+    width: 170px;
+    height: auto;
+  
+    border-radius: 12px;
+  
+    object-fit: contain;
+  
+    margin-bottom: 24px;
+  }
+  
+  .sidebar h2 {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  .sidebar h4 {
+    margin-top: 6px;
+    margin-bottom: 10px;
+  
+    font-size: 17px;
+    font-weight: 500;
+    color: #666;
+  }
+  
+  .sidebar p {
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  .contact {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #444;
+  }
+
+  .contact p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    margin-bottom: 10px;
+  
+    color: #444;
+    font-size: 15px;
+  }
+  
+  .links {
+    margin-top: 24px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    
+  }
+  
+  .links a {
+    margin-top: 8px;
+    text-decoration: none;
+    color: #222;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 15px;
+  }
+
+  .links a:hover {
+    color: black;
+  }
+  
+  /* =========================
+     RIGHT CONTENT
+  ========================= */
+  
+  .content {
+    margin-left: 30%;
+
+    width: 70%;
+    min-height: 100vh;
+
+    padding: 120px 70px 80px;
+    background-color: #f6f6f6;
+
+    line-height: 1.75;
+  }
+  
+  /* spacing for navbar overlap */
+  .content {
+    padding-top: 130px;
+  }
+  
+  .section {
+    margin-bottom: 90px;
+    scroll-margin-top: 110px;
+  }
+  
+  .section h1,
+  .section h2 {
+    margin-bottom: 12px;
+  }
+  
+  .section p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  /* =========================
+     ACTIVE SECTION (optional)
+  ========================= */
+  
+  .section.active-section {
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* =========================
+     RESPONSIVE (IMPORTANT)
+  ========================= */
+  
+  @media (max-width: 900px) {
+  
+    .sidebar {
+      position: relative;
+      width: 100%;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid #eee;
+    }
+  
+    .content {
+      margin-left: 0;
+      padding: 40px 20px;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  }
+  /* =========================
+   MINIMAL NEWS SECTION
+========================= */
+
+  .news-list {
+    margin-top: 18px;
+    padding-left: 18px;
+  }
+  
+  .news-list li {
+    margin-bottom: 14px;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  .news-list li span {
+    display: inline-block;
+    width: 90px;
+  
+    color: #676767;
+    font-size: 15px;
+  
+    vertical-align: top;
+  }
+
+
+/* =========================
+   PROJECTS LIST
+========================= */
+
+.projects-list {
+  margin-top: 20px;
+  padding-left: 18px;
+}
+
+.projects-list li {
+  margin-bottom: 26px;
+
+  line-height: 1.85;
+  color: #333;
+}
+
+.projects-list b {
+  font-weight: 600;
+  color: #111;
+}
+
+
+/* =========================
+   EDUCATION LIST
+========================= */
+
+.education-list {
+  margin-top: 20px;
+  padding-left: 18px;
+}
+
+.education-list li {
+  margin-bottom: 18px;
+
+  line-height: 1.75;
+  color: #333;
+}
+
+.education-list li span {
+  display: inline-block;
+  width: 110px;
+
+  color: #676767;
+  font-size: 15px;
+
+  vertical-align: top;
+}
+  
+/* =========================
+   RESEARCH SECTION
+========================= */
+
+.research-list {
+  margin-top: 20px;
+  padding-left: 18px;
+}
+
+.research-list li {
+  margin-bottom: 34px;
+
+  line-height: 1.85;
+  color: #333;
+}
+
+/* title styling */
+.research-list li span {
+  display: inline-block;
+  font-size: 1.15em;
+  font-weight: 600;
+  line-height: 1.4;
+
+  color: #1111FF;
+  text-decoration: none;
+}
+
+.research-list li span a {
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+/* optional subtle hover for actual links
+.research-list li span a:hover {
+  text-decoration: underline;
+} */
+
+/* research keywords */
+
+.research-keywords {
+  margin-top: 6px;
+  margin-bottom: 10px;
+
+  font-size: 0.96em;
+  font-weight: 500;
+
+  color: rgb(42, 110, 127);
+
+  letter-spacing: 0.2px;
+}

@@ -1,190 +1,164 @@
-<!DOCTYPE HTML5>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<!-- <img class="spotlight" alt="Image may contain:" style="width: 1080px; height: 546px;" aria-busy="false" src="images/banner2.jpg"> -->
-<html>
-	<head>
-		<title>About Me | Md Mohaiminul Islam</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="shortcut icon" type="image/x-icon" href="images/logo.svg" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<style>
-			a {
-				color:#1a62fc;
-			}
-			.myfont{
-				font-family: Georgia, 'Times New Roman', Times, serif;
-				color: #5c5e5b;
-			}
-			.bg {
-				background-color: rgb(206, 200, 200);
-			}
-			.hobby-list {
-				list-style: none;
-				padding: 0;
-				margin: 0;
-			}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>About Me | Md Mohaiminul Islam</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="shortcut icon" type="image/x-icon" href="images/logo.svg" />
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
 
-			.hobby-list li {
-			position: relative;
-			padding-left: 2em; /* room for the icon */
-			}
+<header class="navbar">
+    <div class="navbar-inner">
+        <a href="#home">About</a>
+      <!-- <div class="logo">Mohaiminul</div> -->
+  
+      <nav>
+        <a href="#news">News</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <!-- <a href="#cp">Competitive Programming</a> -->
+        <a href="#education">Education</a>
+        <a href="#awards">Awards</a>
+        <a href="#misc">Miscellaneous</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+</header>
+<body>
 
-			.hobby-list li i {
-			position: absolute;
-			left: 0;         /* put in bullet area */
-			top: 25%;        /* vertically center */
-			transform: translateY(-50%);
-			/* color: #e63946;  style icon if you like */
-			}
-		</style>
-		<base target="_blank">
-	</head>
-	<body class="is-preload">
+    <div class="container">
+    
+      <!-- LEFT FIXED SIDEBAR -->
+      <aside class="sidebar">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/Headshot.jpg" alt="" /></span>
-					<h1 id="logo">Md Mohaiminul Islam</h1>
-					Master's in CS at UNB ('23-'25)<br/>
-					B.Sc. from BUET ('16-'21)					
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#aboutme" class="active">About Me</a></li>
-						<li><a href="#accomplishments">Accomplishments</a></li>
-						<li><a href="#cp">Competitive Programming</a></li>
-						<li><a href="#works">My Works</a></li>
+        <div class="sidebar-top">
+      
+          <img src="images/Headshot.jpg" class="profile-img" />
+      
+          <h2>Md Mohaiminul Islam</h2>
+          <h4>North South University</h4>
+          <p>Lecturer | Math lover | Thinker</p>
+      
+        </div>
+      
+        <div class="sidebar-bottom">
+      
+          <div class="contact">
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              mohaiminul [DOT] islam [AT] northsouth [DOT] edu
+            </p>
+      
+            <p>
+              <i class="fa-solid fa-location-dot"></i>
+              SAC 1170, Dept. of ECE, 
+              North South University, 
+              Dhaka - 1229, Bangladesh
+            </p>
+          </div>
+      
+          <div class="links">
+      
+            <a target="_blank" href="https://github.com/mohaiminul-97">
+              <i class="fa-brands fa-github"></i>
+              Github
+            </a>
+      
+            <a target="_blank" href="https://www.linkedin.com/in/mohaiminul97/">
+              <i class="fa-brands fa-linkedin"></i>
+              Linkedin
+            </a>
+      
+          </div>
+      
+        </div>
+      
+      </aside>
+    
+      <!-- RIGHT SCROLL CONTENT -->
+      <main class="content">
+    
+        <section id="home" class="section">
+          <h1>Hello, world! 👋</h1>
+          <p>I am a <b>Lecturer</b> at the <a href="https://ece.northsouth.edu/" target="_blank">Dept of ECE, North South University (NSU)</a>
+            , Dhaka. I completed my <b>Master's in Computer Science</b> from
+            <a href="https://www.unb.ca/fredericton/cs/" target="_blank">University of New Brunswick</a>. While in UNB, I worked at 
+            <a href="https://nrc.canada.ca/en" target="_blank">National Research Council, Canada (NRC-CNRC)</a> with <a 
+            href="https://www.linkedin.com/in/shahreariqbal/" target="_blank">Dr. Shahrear Iqbal</a>. I completed my <b>Bachelor of Science</b> 
+            in Computer Science, <a target="_blank" href="cse.buet.ac.bd">Bangladesh University of Engineering and Technology (BUET)</a>.
+            <!-- Welcome to my personal space. -->
+          </p>
+          <br>
+          <p>I worked as a <b>Software Engineer</b> for 3 years at several reputed organizations and startups such as 
+            <a href="https://www.enosisbd.com/" target="_blank">Enosis Solutions</a>, 
+            <a href="https://research.samsung.com/srbd" target="_blank">Samsung R&amp;D Institute, Bangladesh</a>, 
+            <a href="https://tandm.ai/au" target="_blank">Tandm International, Australia</a> where my work focus and tech stack varied between
+            web development using <b>AngularJS</b>, <b>.NET MVC</b> and <b>.NET Web Form</b>, 
+            desktop Samsung Notes app with <b>UWP (Universal Windows Platform)</b> framework,
+            testing and development <b>Visual Studio</b>.
 
-						<li><a href="#hobby">Hobbies and Stuffs</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a target="_blank" href="https://github.com/iamsaquib2508" class="icon brands fa-github" ><span class="label">Github</span></a></li>
-						<li><a target="_blank" href="https://www.linkedin.com/in/saquib2508/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<!-- <li><a target="_blank" href="https://facebook.com/saquib2508" class="icon brands fa-facebook-f" ><span class="label">Facebook</span></a></li> -->
-						<!-- <li><a target="_blank" href="https://www.quora.com/profile/Md-Mohaiminul-Islam-2" class="icon brands fa-quora" ><span class="label">Quora</span></a></li> -->
-						<li><a target="_blank" href="mailto:mohaimin0312sam@gmail.com" class="icon solid fa-envelope" ><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+        </p>
+        </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="myfont">
 
-				<!-- Main -->
-					<div id="main" class="bg">
+        <section id="news" class="section">
+          <h2>News 🔥</h2>
+        
+          <ul class="news-list">
+        
+            <li>
+            <span>2026-06</span>
+            👨🏻‍🏫 Joined North South University (NSU) as Lecturer.
+            </li>
+        
+            <li>
+            <span>2025-09</span>
+            Joined Tandm International as Software Test Engineer.
+            </li>
+        
+            <li>
+            <span>2025-05</span>
+            🎓 Completed my Master's from Faculty of CS, UNB.
+            </li>
 
-						<!-- One -->
-							<section id="aboutme">
-								<div class="image main" data-position="center">
-									<img src="images/banner2.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<h2 style="color: #44a151;">About Me</h2>
-										<!-- <p>ust an incredibly simple responsive site<br />
-										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
-									</header>
-									<p>Hello there! I am Md Mohaiminul Islam from Bangladesh. I have completed my B.Sc. Degree in
-										<b>Computer Science and Engineering</b> at <b> Bangladesh University of Engineering and Technology (BUET)</b>.
-										In Fall '23, I moved to <b>Canada</b> where I completed my Master's at <b>University of New Brunswick (UNB)</b>.
-										I am passionate about critical thinking, competitive programming and mathematical problems.<br/>
-
-										I used to participate in Mathematics and Informatics Olympiad in my high school days. After my undergrad
-										in 2021, I joined <a href="https://www.enosisbd.com/" target="_blank">Enosis Solutions</a> as a Software Engineer where
-										I worked on <b>AngularJS</b>, <b>.NET MVC</b> and <b>.NET Web Form</b>. Later, I joined as a Software Engineer at 
-										<a href="https://research.samsung.com/srbd" target="_blank">Samsung R&amp;D Institute, Bangladesh</a>; where I worked 
-										in the Samsung Notes app team with <b>UWP (Universal Windows Platform)</b> framework. Along with my Master's 
-										degree, I worked as a <b>Teaching Assistant (TA)</b> at UNB. Later, I completed a winter internship in <a 
-										href="https://nrc.canada.ca/en" target="_blank">National Research Council, Canada (NRC-CNRC)</a>
-										as a <b>research assistant (RA)</b>. <!-- <br/> -->
-
-										I was employed in another <b>RA position</b> in <a href="https://www.unb.ca/fredericton/cs/research/casatlantic/index.html" target="_blank">
-										Centre for Advanced Studies - Atlantic</a> for the summer co-op term. 
-										<sup><a href="https://www.indeed.com/career-advice/finding-a-job/jobs-with-co-op"> What is a co-op?</a></sup> </br>
-										
-										Currently I am open to any <b>tech-related job</b>, including but not 
-										limited to fullstack software development role, big data and/or parallel computing. I am also open to any research-focused 
-										positions as well.
-									</p>
-								</div>
-							</section>
-						<!-- Three -->
-							<section id="accomplishments">
-								<div class="container">
-									<h3>A Few Accomplishments</h3>
-
-									<div class="features">
-										<article>
-											<p>Here are a few achievements over the time that I am proud of.</p>
-										</article>
-										<article>
-											<h4 style="color: #626461;">Passed SWC Professional Exam</h4>
-											<!-- <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a> -->
-											<div class="inner">
-
-												<p>Samsung arranges SWC Professional Exam for its employees every month, and only a handful of candidates pass at an exam.
-													In August 2022, I had passed this exam. The problem in this contest is usually a mixture of a competitive style contests problem and
-													mini system design problem.
-												</p>
-											</div>
-										</article>
-										<article>
-											<h4 style="color: #626461;">Champion of the Champions in Bangladesh Math Olympiad</h4>
-											<a href="#" class="image"><img src="images/BdMO.jpg" width:1000px alt="" /> </a>
-											<br>
-											<div class="inner">
-
-												<p>Math Olympiad is a prestigious and festive event in Bangladesh. Every year, the IMO (International Mathematics
-													Olympiad) team of Bangladesh is formed from the winners of this nationwide competition (You can consider
-													this as equivalent to AMC-12/AIME). In 2011, I became
-													Champion of the Champions in the Junior Category (leftmost in the picture, along with other CoCs 
-													from other categories).</p>
-											</div>
-										</article>
-										<article>
-											<h4 style="color: #626461;">Secured 20th position in SUST IUPC 2019</h4>
-											<!-- <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a> -->
-											<div class="inner">
-
-												<p>SUST (Shahjalal University of Science and Technology) arranged an inter university programming contest in 2019
-													as a part of their CSE carnival. My team BUET_CodeforFood stood 20th in the final ranking of the contest.
-												</p>
-											</div>
-										</article>
-
-									</div>
-								</div>
-							</section>
-						<!-- cp -->
-							<section id="cp">
-								<div class="container">
-									<h3>Competitive Programming</h3>
-									<p>When I was in the 11<sup>th</sup> grade, I participated in the Bangladesh Informatics Olympiad 2013 and reached the national level.
-										My interest for competitive programming started there. Over the years, I have solved many algorithmic problems in various online judges,
-										especially in Codeforces. Even though I started with UVA and Hackerrank, later I just continued to solve problems on LightOJ and Codeforces.
-										I am aiming towards 1900 rating (Div. 1) in Codeforces. Besides, I participated many Inter University Programming Contests,
-										Google CodeJam, Hashcodes in my undergraduate life and performed well.
-									</p>
-
-									<img src="images/codeforcesLogo.jpeg" width="25", height="14"> <a href="https://codeforces.com/profile/saquib2508">Codeforces</a> <br>
-									<img src="images/hackerankLogo.png" width="25", height="14"> <a href="https://www.hackerrank.com/saquib2508">HackerRank</a> <br>
-									<img src="images/leetcodeLogo.png" width="25", height="14"> <a href="https://leetcode.com/mohaimin0312sam">Leetcode</a> <br>
-
-								</div>
-							</section>
-
-						<!-- Two -->
-							<section id="works">
-								<div class="container">
-									<h3>A Little Glimpse of My Works</h3>
+            <li>
+              <span>2024-07</span>
+              Article submitted at biorxiv, awaiting peer-review.
+            </li>
+        
+            <li>
+            <span>2023-09</span>
+            Started my Master's at Faculty of CS, UNB.
+            </li>
+        
+            <li>
+            <span>2022-08</span>
+            🏅 Passed Samsung's SWC Professional Exam.
+            </li>
+        
+            <li>
+            <span>2022-06</span>
+            Started working as a Software Engineer at Samsung R&amp;D Institute, Bangladesh.
+            </li>
+        
+            <li>
+            <span>2021-03</span>
+            Started my career at Enosis Solutions as a Full-stack Software Engineer
+            </li>
+        
+            <li>
+            <span>2021-02</span>
+            🎓 Completed my Bachelor's from Dept of CSE, BUET.
+            </li>
+        
+          </ul>
+        </section>
+    
+        <section id="projects" class="section">
+          <h2>Projects ⚙️</h2>
 									<p>Throughout my undergraduate and graduate journey, I had done many assignments and projects. Some of them are listed below.</p>
 									<!-- <ul class="feature-icons">
 										<li class="icon solid fa-code">Write all the code</li>
@@ -194,17 +168,14 @@
 										<li class="icon solid fa-bolt">Lightning bolt</li>
 										<li class="icon solid fa-users">Shadow clone technique</li>
 									</ul> -->
-									<ul>
-										<li class="works-element"> During my RA internship at NRC, the goal of my work was to gather domain knowledge in <b>knowledge graph representation</b> for <b>intrusion 
-											detection</b> and <b>security automation</b>, focusing on red/blue team activities. A research paper is going to published soon based on this 
-											research along with Dr. Shahrear Iqbal and Dr. Euclides Neto as other authors. </li>
+									<ul class="projects-list">
 
-										<li class="works-element"> <a href="https://github.com/Subangkar/Foodsquare-Web-App">FoodSquare</a> <br/>
+										<li> <a href="https://github.com/Subangkar/Foodsquare-Web-App">FoodSquare</a> <br/>
 										This is a web app that I prepared with my classmates as a Software Engineering term project. The Model and Controller was
 										prepared using <b>Django</b> framework, while the View consisted <b>HTML, CSS, Javascript</b>. I implemented most
 										parts of the frontend here.</li>
 
-										<li class="works-element"> <a href="https://github.com/iamsaquib2508/Interactive-Sandbox">Interactive Sandbox</a> <br/>
+										<li> <a href="https://github.com/iamsaquib2508/Interactive-Sandbox">Interactive Sandbox</a> <br/>
 											Interactive Sandbox is a lightweight, Tkinter-based desktop tool for running interactive programming challenges locally.
 											<sup><a href="https://codeforces.com/blog/entry/45307"> What is an interactive problem?</a></sup>
 											The purpose of the tool was to use it personally, but later it was decided to make it public.
@@ -216,480 +187,152 @@
 										<!-- <ul>
 											<li >Django, Javascript</li>
 										</ul> -->
-										<li class="works-element"> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20310%20Compiler/C%20Compiler%20Final">Partial C Compiler</a><br/>
+										<!-- <li> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20310%20Compiler/C%20Compiler%20Final">Partial C Compiler</a><br/>
 										From some basic C code, this compiler can prepare corresponding assembly code (.asm) which can be run by emu086. I personally felt satisfied after
-										completing this project. <b>C, Flex, Bison</b> were used for this project.</li>
+										completing this project. <b>C, Flex, Bison</b> were used for this project.</li> -->
 										<!-- <img class="spotlight" alt="Image may contain:" style="width: 1080px; height: 546px;" aria-busy="false" src="images/banner2.jpg"> -->
 										<!-- <ul>
 											<li >Flex, Bison</li>
 										</ul> -->
-										<li class="works-element"> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20108%20Object%20Oriented%20Programming/CSE%20108%20Project%201505018">
+										<!-- <li> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20108%20Object%20Oriented%20Programming/CSE%20108%20Project%201505018">
 											Peer to Peer Torrent File Sharing System </a><br/>
 										This is a Java project to imitate the peer to peer file sharing system to some extent. Implemented the entire back end, using
-										multithreading and socket programming.</li>
+										multithreading and socket programming.</li> -->
 										<!-- <ul>
 											<li>Java, JavaFX</li>
 										</ul> -->
-										<li class="works-element"> <a href="https://github.com/Masum95/Hospital-Management-System-">Hospital Management System</a><br/>
-										This is a Java project prepared by using Oracle database to manage a hospital database and <b>JDBC</b>. Implemented the database side and worked
-										on <b>SQL</b>.</li>
+										<li> <a href="https://github.com/Masum95/Hospital-Management-System-">Hospital Management System</a><br/>
+										This is a Java project prepared by using Oracle database to manage a hospital database and <b>JDBC</b>. I
+                    implemented the database side and worked on <b>SQL</b> in this 2 person project.</li>
 										<!-- <ul>
 											<li >Java, Oracle</li>
 										</ul> -->
-										<li class="works-element"> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20406%20Computer%20Security/DNS%20Cache%20Poisoning">
+										<!-- <li> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20406%20Computer%20Security/DNS%20Cache%20Poisoning">
 											DNS Cache Poisoning Attack</a><br/>
 										This was a small security project to imitate the well known Kaminsky DNS cache poisoning attack. This was done by packet sniffing
-										using Wireshark and spoofing IP.</li>
+										using Wireshark and spoofing IP.</li> -->
 <!--
 										<ul>
 											<li >C, Wireshark</li>
 										</ul> -->
-										<li class="works-element"> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20102%20C%20programming/Term%20Project%20CSE%20102%20Swift%20Ball">
+										<li> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20102%20C%20programming/Term%20Project%20CSE%20102%20Swift%20Ball">
 											Rolling Ball</a><br/> 
-										This was my first project in my undergraduate days, in the first semester of BUET. This is an OpenGL game which is inspired from the famous 
-										Nokia mobile game Rapid Roll. Using simple C code, this was a fun, lightweight
-										implementation of the game.</li>
+										Rolling Ball was my first project in my undergraduate days, in the first semester of BUET. This is an OpenGL game which is inspired from the famous 
+										Nokia mobile game Rapid Roll. Using simple C code, this was a fun, lightweight implementation of the game.</li>
 										<!-- <ul>
 											<li >C, iGraphics, OpenGL</li>
 										</ul>	 -->
-										<li class="works-element"> <a href="https://www.youtube.com/watch?v=ou7Bm-WyJiM"> Smart Carrier</a><br/>
-										This was a hardware project. It's about an autonomous car which can
-										carry small objects. An android app was also built to draw the path for the carrier. The
-										car could follow a path drawn on the app of ours.
+										<li> <a href="https://www.youtube.com/watch?v=ou7Bm-WyJiM"> Smart Carrier</a><br/>
+										In this hardware project, we built an autonomous car which can carry small objects as well as follow a map virtually. 
+                    An android app was also built to draw the path for the carrier which was transmitted to the car to follow.
 										Demo of the project is available on the link above. ATmega-32 was used and C language was maintained for the coding.</li>
 										<!-- <ul>
 											<li >C, AtMega32, HC-05 Bluetooth Module</li>
 										</ul> -->
-
-
-										<li class="works-element"> <a>Undergraduate Thesis</a><br/>
-										My undergraduate thesis work is about <b><i>Alignment-free Phylogenic Tree Construction using count data of K-mer</i></b>. Without using Character based or
-										Distance based method, we are trying to find out the phylogenic tree given a set of species' genetic information.
-										The thesis was supervised Atif Hasan Rahman, Associate Professor, CSE, BUET.</li>
 										<!-- <li >Lightning bolt</li>
 										<li >Shadow clone technique</li> -->
 									</ul>
-								</div>
-							</section>
+        </section>
 
+        <section id="research" class="section">
+          <h2>Research 🔬
+            <!-- 🧪 -->
+          </h2>
+        
+          <ul class="research-list">
+        
+            
+            <li> <span>Domain Knowledge Management for Automated Threat Defense: Methods, Challenges, and Opportunities</span><br/>
+              <div class="research-keywords">
+                Keywords: Knowledge Graphs, Intrusion Detection, Security Automation, Red-Blue Team Activities
+              </div>
+              During my Research Assistant internship at NRC, I worked on acquiring and organizing domain knowledge for knowledge graph 
+              representation in the context of intrusion detection and security automation, with a particular 
+              focus on red-team and blue-team activities. This work resulted in a literature review paper that has been 
+              submitted for publication, co-authored with <a href=
+              "https://www.linkedin.com/in/euclides-neto-phd-a6546490/" target="_blank">
+              Dr. Euclides Neto</a> and <a 
+              href="https://www.linkedin.com/in/shahreariqbal/" target="_blank">Dr. Shahrear Iqbal</a>.
+            </li>
+            
+            <li><span><a href="https://www.biorxiv.org/content/10.1101/2023.12.05.570306v4.full">A Birth-Death-Migration Model for Alignment-Free Phylogeny Estimation using k-mer Frequencies</a></span><br/>
+              <div class="research-keywords">
+                Keywords: K-mer, Phylogenic tree, Genetics, Bioinformatics, Alignment-free Method, Birth-death-migration
+              </div>
+              Given a collection of species' genetic information, we investigate alignment-free methods for phylogenetic tree reconstruction. 
+              In particular, we propose a model of k-mer frequency evolution based on a birth-death-migration process, 
+              which can be used to estimate maximum-likelihood phylogenies directly from k-mer frequencies. The thesis was 
+              supervised by <a href="https://cse.buet.ac.bd/faculty/faculty_detail/atif" target="_blank">Atif Hasan Rahman</a>, 
+              Associate Professor, CSE, BUET.</li>
+        
+          </ul>
+        </section>
 
-						<!-- Four -->
-						<section id="hobby">
-							<div class="container">
-								<h3>Personal Hobbies and Stuffs</h3>
-								<p>These are basically some hobbies of mine. Most of them are not necessarily "hobbies". Just a little peek into my personality.</p>
-								<!-- <ul class="feature-icons">
-									<li class="icon solid fa-code">Write all the code</li>
-									<li class="icon solid fa-cubes">Stack small boxes</li>
-									<li class="icon solid fa-book">Read books and stuff</li>
-									<li class="icon solid fa-coffee">Drink much coffee</li>
-									<li class="icon solid fa-bolt">Lightning bolt</li>
-									<li class="icon solid fa-users">Shadow clone technique</li>
-								</ul> -->
-								<ul class="hobby-list">
-									<li> <i class="icon solid fa-syringe"></i>   I am a voluntary blood donor. Whenever I get the opportunity, I try to donate blood to the people in need.
-										Already I have donated blood 7 times, last donated April, 2022. 
-										<!-- If you need A+ blood in Fredericton in New Brunswick, let me know. -->
-									</li>
-									<li><i class="icon solid fa-book"></i>  I like to read a lot. I used to read fictions of any form since my childhood. Now I love to read non-fiction
-										"serious" books as well.</li>
-									<li><i class="fas fa-chess"></i>   Recently I started playing chess as a hobby. My ELO is around 950 on <a href="https://www.chess.com/member/saquib2508">chess.com</a>.
-										I also love Fischer Random Chess (commonly known as Chess 960) very much!
-									</li>
-									<li ><i class="fas fa-dove"></i>   Besides Bangla and English, I intend to learn Spanish and French as well in the future. Currently, I have a 410+ day streak in Duolingo.</li>
-									<li ><i class="fas fa-chalkboard-teacher"></i>   When I was a student, I made a Youtube channel named <a href="https://www.youtube.com/channel/UCSNeDyTLTuB-ECJxi6x7TUg">Psi Squared</a>
-										with three of my friends where we used to upload many videos explaining various CS topics in Bangla, my mother language. 
-										We couldn't continue this for long, but you're welcome to check them out!</li>
-									<li ><i class="fas fa-tv"></i>   I LOVE to watch TV Shows and Movies. Crime, Thriller and Mystery are my favourite genres.
-										Not a big fan of comedy, except Silicon Valley and The Office. The ending of both these shows touched me.</li>
-									<li ><i class="fas fa-mug-hot"></i>   I don't like tea or coffee... or soft drinks like coke/soda, or any hard drinks. Just give me water! Ok, maybe lemon juice!</li>
-									<li ><i class="fa fa-play-circle"></i>   Watching videos of Trevor Noah, Veritasium, 3Blue1Brown, GothamChess on Youtube and is a common lightweight pastime for me.
-									</li>
-									<li ><i class="fas fa-gamepad"></i>   I like to call myself a gamer, but not in a traditional way. I play indie games, or offline version of AAA games. It's a peaceful life.
-									</li>
-									<!-- <li >I am a travel enthusiast. I love to travel around with my friends and my wife.</li> -->
-									<li ><i class="fas fa-paw"></i>   I care about animal welfare. I love animals, maybe more than anything! I'm especially fond of cats. I'm also a huge 
-										fan of David Attenborough.</li>
-									<!-- <li >Lightning bolt</li>
-									<li >Shadow clone technique</li> -->
-								</ul>
-							</div>
-						</section>
+        <!-- <section id="cp" class="section">
+          <h2>Competitive Programming 📖</h2>
+                <p>When I was in the 11<sup>th</sup> grade, I participated in the Bangladesh Informatics Olympiad 2013 and reached the national level.
+                  My interest for competitive programming started there. Over the years, I have solved many algorithmic problems in various online judges,
+                  especially in Codeforces. Even though I started with UVA and Hackerrank, later I just continued to solve problems on LightOJ and Codeforces.
+                  I am aiming towards 1900 rating (Div. 1) in Codeforces. Besides, I participated many Inter University Programming Contests,
+                  Google CodeJam, Hashcodes in my undergraduate life and performed well.
+                </p>
 
-						<!-- Five -->
-							<!-- <section id="five">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>You can contact me in any of the platform below.</p>
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-								</div>
-							</section> -->
+                <img src="images/codeforcesLogo.jpeg" width="25", height="14"> <a href="https://codeforces.com/profile/saquib2508">Codeforces</a> <br>
+                <img src="images/hackerankLogo.png" width="25", height="14"> <a href="https://www.hackerrank.com/saquib2508">HackerRank</a> <br>
+                <img src="images/leetcodeLogo.png" width="25", height="14"> <a href="https://leetcode.com/mohaimin0312sam">Leetcode</a> <br>
+              
+        </section> -->
+        <section id="awards" class="section">
+          <h2>Awards 🏅</h2>
+          <ul class="awards-list">
+            <li>Samsung organizes the SWC Professional Exam monthly for its employees, with only a limited number of participants achieving a passing score.
+              In August 2022, I successfully passed the exam. The contest problems are designed to assess both competitive programming skills and system design thinking through a combination of algorithmic challenges and mini system design tasks.
+            </li>
+            <li>
+              The Bangladesh Mathematical Olympiad is a highly prestigious national competition that serves as a pathway for selecting and training Bangladesh's IMO team. Comparable to the AMC 12/AIME track, it attracts top mathematics students from across the country.
+              In 2011, I earned the "Champion of the Champions" title in the Junior Category, recognizing me as the top performer among category winners nationwide.
 
-						<!-- Six -->
-						<!--
-							<section id="six">
-								<div class="container">
-									<h3>Elements</h3>
-
-									<section>
-										<h4>Text</h4>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<hr />
-										<header>
-											<h4>Heading with a Subtitle</h4>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<header>
-											<h5>Heading with a Subtitle</h5>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<hr />
-										<h2>Heading Level 2</h2>
-										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
-										<h5>Heading Level 5</h5>
-										<h6>Heading Level 6</h6>
-										<hr />
-										<h5>Blockquote</h5>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h5>Preformatted</h5>
-										<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
-
-									<section>
-										<h4>Lists</h4>
-										<div class="row">
-											<div class="col-6 col-12-xsmall">
-												<h5>Unordered</h5>
-												<ul>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-												<h5>Alternate</h5>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-xsmall">
-												<h5>Ordered</h5>
-												<ol>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ol>
-												<h5>Icons</h5>
-												<ul class="icons">
-													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h5>Actions</h5>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
-										</ul>
-										<ul class="actions small">
-											<li><a href="#" class="button primary small">Small</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<div class="row">
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-													<li><a href="#" class="button alt">Default</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6 col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-													<li><a href="#" class="button alt small">Small</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-													<li><a href="#" class="button alt fit">Default</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-													<li><a href="#" class="button alt small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-									</section>
-
-									<section>
-										<h4>Table</h4>
-										<h5>Default</h5>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-
-										<h5>Alternate</h5>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</section>
-
-									<section>
-										<h4>Buttons</h4>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Primary</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Alternate</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary large">Large</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button primary fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button alt fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button primary disabled">Primary</span></li>
-											<li><span class="button disabled">Default</span></li>
-											<li><span class="button alt disabled">Alternate</span></li>
-										</ul>
-									</section>
-
-									<section>
-										<h4>Form</h4>
-										<form method="post" action="#">
-											<div class="row gtr-uniform">
-												<div class="col-6 col-12-xsmall">
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-												</div>
-												<div class="col-6 col-12-xsmall">
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-												</div>
-												<div class="col-12">
-													<select name="demo-category" id="demo-category">
-														<option value="">- Category -</option>
-														<option value="1">Manufacturing</option>
-														<option value="1">Shipping</option>
-														<option value="1">Administration</option>
-														<option value="1">Human Resources</option>
-													</select>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low Priority</label>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal Priority</label>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High Priority</label>
-												</div>
-												<div class="col-6 col-12-medium">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy of this message</label>
-												</div>
-												<div class="col-6 col-12-medium">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">I am a human and not a robot</label>
-												</div>
-												<div class="col-12">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" value="Send Message" /></li>
-														<li><input type="reset" value="Reset" class="alt" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-									<section>
-										<h4>Image</h4>
-										<h5>Fit</h5>
-										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
-										<div class="box alt">
-											<div class="row gtr-50 gtr-uniform">
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											</div>
-										</div>
-										<h5>Left &amp; Right</h5>
-										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</section>
-
-								</div>
-							</section>
-						-->
-
-					</div>
-
-				<!-- Footer -->
-					<!-- <section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section> -->
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+            </li>
+            <li>
+              Participated in the Inter-University Programming Contest organized by SUST (Shahjalal University of Science and Technology) during CSE 
+              Carnival 2019. Competing as a member of team <i>BUET_CodeforFood</i>, we achieved 20<sup>th</sup> place in the final rankings.
+            </li>
+          </ul>
+        </section>
+    
+        <section id="misc" class="section">
+          <h2>Miscellaneous ✨</h2>
+          <p>Well, since we're here already, I'll just talk a little bit about my personality.</p>
+        
+          <ul class="hobby-list">
+        
+            <li>I am (or perhaps <i>used to be</i>) a voluntary blood donor. Whenever I get the opportunity, I try to donate blood to the people in need.
+              Already I have donated blood 7 times, last donated April, 2022. </li>
+            <li>Besides Bangla and English, I intend to learn Spanish and French as well in the future. Currently, I have a 810+ day 
+              streak in Duolingo and I'm gonna pretend that it's a reasonable substitute for actual fluency.</li>
+            <li>During my student years, three friends and I started a YouTube channel called <a href="https://www.youtube.com/channel/UCSNeDyTLTuB-ECJxi6x7TUg">Psi Squared</a>
+              where we created videos explaining various Computer Science topics in Bangla. The project did not last as long as 
+              we had hoped, but the videos are still there if you are curious.</li>
+            <li>I enjoy watching TV shows and movies, particularly crime, thriller, and mystery. 
+              Comedy is usually not my first choice, although <i>Silicon Valley</i> and <i>The Office</i> remain notable exceptions</li>
+            <li>I consider myself a gamer, though perhaps not in the conventional sense. I tend to gravitate toward indie titles and 
+              single-player experiences rather than competitive online games. At the moment, I am alternating between <i>Baba Is You</i>
+              (roughly 100 MB) and <i>Elden Ring</i> (well over 40 GB), which seems like a reasonable balance.
+            </li>
+            <li>I care deeply about animal welfare and have a particular fondness for cats. More broadly, I enjoy learning about wildlife and nature, 
+              which is probably why I never get tired of listening to Sir David Attenborough narrate the natural world.</li>
+          </ul>
+        </section>
+    
+        <section id="contact" class="section">
+          <h2>Contact</h2>
+          <p>Sadly, I'm not very active on Linkedin. But you can find me on my email anytime! </p>
+        </section>
+    
+      </main>
+    
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
 </html>
